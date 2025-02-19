@@ -23,3 +23,7 @@ const decrement = (a) => {
     a--;
     return a;
 }
+
+const makeInt = (n) => {
+    return parseInt(n);
+}
