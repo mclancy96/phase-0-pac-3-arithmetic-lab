@@ -27,3 +27,7 @@ const decrement = (a) => {
 const makeInt = (n) => {
     return parseInt(n, 10);
 }
+
+const preserveDecimal = (n) => {
+    return parseFloat(n);
+}
